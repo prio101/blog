@@ -15,108 +15,74 @@
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <!-- Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Dosis:400,300' rel='stylesheet' type='text/css'>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+ 
 
-
+	
+  <!--Added styles css-->	
   <link rel="stylesheet" href="/css/normalize.css"/>
 
-  <link rel="stylesheet" href="/css/newStyle.css"/>
+  <link rel="stylesheet" href="/css/custom.css"/>
 
+   <link rel="stylesheet" href="/css/style.css"/>
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+   <!--modernizr-->
+   <script src="js/modernizr.js"></script>
+	
 
 
 </head>
 
 
   <body>
+  <!--[if lt IE 7]>
+      <strong>It seems your browser is quite a bit old, to get latest browser go to this link <a href="http://browsehappy.com">BROWSE HAPPY </a> And get the happy face</strong>
+  <![endif]-->
 
-    
-
-
-<section class="header">
-
-
-      <div class="text-center  col-md-offset-4 col-md-4  col-sm-offset-2">
-        <a href="/" ><h1>Blog</h1></a>
-        <p>A little space ship</p>
-      </div>
+  
+<!-- Start with the header -->
+<section class="header" id="header">
 
 
 
+    <a class="tab pi-default pi-big pi-flat" target="_blank" href="https://github.com/prio101"><i class="fa fa-github"></i> My Github</a>
 
-  <!-- Icons -->
-  <div class="row">
-
-    <div class="col-sm-offset-3 col-md-offset-3 col-md-6 text-center">
-      
-      <span>
-        <a class="header-link" href="https://github.com/prio101" target="_blank">
-          <i class="fa fa-2x fa-github-square 3x"></i>
-        </a>
-      </span>
-      
+    <!-- Main Head Title -->
+    <h2><a href="/">Blog</a></h2>
+    <p>A little space ship</p>
 
 
-      
-      <span>
-        <a class="header-link" href="https://twitter.com/prio_mahabub" target="_blank">
-          <i class="fa fa-2x fa-twitter 3x"></i>
-        </a>
-      </span>
-      
-
-      
-      <span>
-        <a class="header-link" href="http://mahabubislam.com"  target="_blank">
-          <i class="fa fa-2x fa-laptop"></i>
-
-        </a>
-      </span>
-      
 
 
-      
-      <span>
-        <a class="header-link" href="https://facebook.com/fallencurse"  target="_blank">
-          <i class="fa fa-2x fa-facebook-square "></i>
-        </a>
-      </span>
-      
-    </div>
-
-  </div>
 </section>
+
+
+
+
+
+
+
+
+
+
 
 
     <div class="container">
 
 
-        <section class="post">
-<div class="row">
-    <div class="col-sm-offset-2 col-sm-8 col-md-offset-3  ">
-      <h1>Getting up  with RVM</h1>
-      <p>Written in -- Jan 18,2015  - By -- Mahabub Islam</p>
-  </div>
+          <!--start of the post title-->
+    <section class="single-post-title-main">
+        <h2>Getting up  with RVM</h2>
+        <small>Written by Mahabub I.</small>
+    </section>
+<!--End of the post title-->
 
-  <div class="col-sm-offset-2 col-sm-4 col-md-offset-3 col-md-8">
-    <small class="categories">Categories: </small>
-    
-    <span class="category">technology</a></span>
-    
-    <span class="category">ruby</a></span>
-    
-    <span class="category">rvm</a></span>
-    
-
-  </div>
-<br >
-  <div class="col-sm-offset-2 col-sm-10 col-md-offset-2 col-md-8">
-
-    
-    <p>There is many times in different blogs and in forums I watch a post about <em>ruby installtion problem</em> . Even if I stay honest I also face that kind of problem . People love <em>Ruby</em> and it’s framework <a href="http://rubyonrails.org/">Rails</a>because it is easy and powerfull. But when it is not managed it can become very complex.</p>
+<!--Start of the section post-->
+    <section class="post">
+       <p>
+          <p>There is many times in different blogs and in forums I watch a post about <em>ruby installtion problem</em> . Even if I stay honest I also face that kind of problem . People love <em>Ruby</em> and it’s framework <a href="http://rubyonrails.org/">Rails</a>because it is easy and powerfull. But when it is not managed it can become very complex.</p>
 
 <div class="post-img">
  <img class="img-responsive img-post" src=" /img/ruby.png " />
@@ -174,8 +140,36 @@
 <p>After getting this awesome tool , you can also look into the <strong>RBENV</strong> which is almost like <strong>RVM</strong> . And as from my view rather complex one out there. You can get all the documentaion in <a href="https://rvm.io/">RVM DOCS</a> and if you ran into some problem , you always can ask. Until next time , take care. 	</p>
 
 
-	<hr/>
-  </div>
+       </p>
+
+    </section>
+
+    <!--start of section author-->
+    <section class="single-author">
+        <div class="post-details">
+            <p>Written by :    Mahabub Islam</p>
+            <span> Done At: Jan 18,2015</span>
+            <div class="categories">
+                <em>Categories:</em>
+                <ul>
+                
+                    <li><a>technology</a></li>
+                    
+                
+                    <li><a>ruby</a></li>
+                    
+                
+                    <li><a>rvm</a></li>
+                    
+                   
+                </ul>
+            </div>
+
+          
+
+        </div>
+    </section>
+<!--End of section author-->
 	
   <div class="col-sm-offset-2 col-sm-10 col-md-offset-2 col-md-8">
 	    <div id="disqus_thread"></div>
@@ -210,6 +204,46 @@
 
     <section class="footer ">
 
+    <div class="row">
+
+        <div class="col-sm-offset-3 col-md-offset-3 col-md-6 text-center">
+            
+      <span>
+        <a class="header-link" href="https://github.com/prio101" target="_blank">
+            <i class="fa fa-2x fa-github-square 3x"></i>
+        </a>
+      </span>
+            
+
+
+            
+      <span>
+        <a class="header-link" href="https://twitter.com/prio_mahabub" target="_blank">
+            <i class="fa fa-2x fa-twitter 3x"></i>
+        </a>
+      </span>
+            
+
+            
+      <span>
+        <a class="header-link" href="http://mahabubislam.com"  target="_blank">
+            <i class="fa fa-2x fa-laptop"></i>
+
+        </a>
+      </span>
+            
+
+
+            
+      <span>
+        <a class="header-link" href="https://facebook.com/fallencurse"  target="_blank">
+            <i class="fa fa-2x fa-facebook-square "></i>
+        </a>
+      </span>
+            
+        </div>
+
+    </div>
   <div class="row">
   <div class="col-sm-offset-2 col-sm-5 col-md-offset-5 col-md-6 ">
     <small><a href="http://www.mahabubislam.com">Mahabub I. </a><sup>&reg </sup>--- powerd by <a href="http://jekyllrb.com/">Jekyll</a></small>
@@ -228,19 +262,41 @@
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
     </script>
-    
+
 
 </section>
 
 
     </div>
-    <!-- Script has to be loaded -->
-<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/jquery.js"><\/script>')</script>
+
+<!-- Add custom scripts here -->
+<!-- Bootstrap js -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- Parallax js -->
+<script type="text/javascript" src="jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="jquery.scrollTo-1.4.2-min.js"></script>
+<script src="js/snippet.js"></script>
+<!-- /end of parallax js -->
 
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
+<!-- Add your google analytics here -->
+<!-- Change the XXXXXXX section in your site id -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+
+	
 
 
   </body>
