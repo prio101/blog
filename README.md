@@ -1,3 +1,3 @@
 # Blog
 
-This is my blog repo , powered by jekyll...
+This is my blog repo , powered by jekyll.
