@@ -26,7 +26,7 @@
     margin-top: 2%; }
   .header a {
     text-decoration: none !important;
-    margin-left: 80%;
+
     color: #fff; }
     @media screen and (max-width: 360px) {
       .header a {
@@ -189,6 +189,8 @@
 a {
   text-decoration: none !important; }
   a:hover {
-    color: #000 !important; }
-
+    color: #16a085 !important; }
+  .tab-social a:hover{
+    color: #fff !important;
+  }
 /*# sourceMappingURL=custom.css.map */
