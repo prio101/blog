@@ -30,7 +30,7 @@
     color: #fff; }
     @media screen and (max-width: 360px) {
       .header a {
-        margin-left: 60%; } }
+        margin-left: 0%; } }
   .header .tab {
     font-weight: 900;
     font-size: 1.4em; }
@@ -193,4 +193,9 @@ a {
   .tab-social a:hover{
     color: #fff !important;
   }
+.mobile-social a{
+  display: inline !important;
+}
+
+
 /*# sourceMappingURL=custom.css.map */
