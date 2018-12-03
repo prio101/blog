@@ -1,6 +1,6 @@
 /*This is the header section styles*/
 .header {
-  background: url("../img/bg.jpg") 45% 25% no-repeat fixed;
+  background: url('../img/back.jpg') 0% 0 no-repeat fixed;
   width: 100%;
   min-height: 400px;
   margin: 0 auto;
@@ -12,7 +12,7 @@
     font-weight: 900;
     color: #fff;
     letter-spacing: 0.2em;
-    margin-top: 10%; }
+    padding: 0%; }
     .header h2 a {
       margin-left: 0%;
       color: #fff; }
@@ -23,14 +23,16 @@
     font-weight: 600;
     color: #fff;
     letter-spacing: .1em;
-    margin-top: 2%; }
+    margin-top: 2%; 
+    margin-bottom: 5%;
+  }
   .header a {
     text-decoration: none !important;
-
+    margin-left: 95%;
     color: #fff; }
     @media screen and (max-width: 360px) {
       .header a {
-        margin-left: 0%; } }
+        margin-left: 60%; } }
   .header .tab {
     font-weight: 900;
     font-size: 1.4em; }
@@ -40,7 +42,15 @@
       text-decoration: none; }
       .header .social-pack a:hover {
         color: #00b3ee; }
-
+  .header .pages a:first-child {
+    margin-left: 40%;    
+  }  
+  
+  .header .pages a {
+    margin-left: 3%;
+    font-size: 2em;
+    font-weight: 900;s
+  } 
 .post-loop {
   margin-top: 10%;
   margin-left: 25%;
@@ -189,13 +199,13 @@
 a {
   text-decoration: none !important; }
   a:hover {
-    color: #16a085 !important; }
-  .tab-social a:hover{
-    color: #fff !important;
-  }
-.mobile-social a{
-  display: inline !important;
-}
+    color: #fff !important; }
+    .post-image{
+      width:100%;
+      margin: 5%;
+    }
 
-
+    .leader{
+      display: inline !important;
+    }
 /*# sourceMappingURL=custom.css.map */
